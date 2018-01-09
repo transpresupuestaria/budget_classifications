@@ -3,7 +3,7 @@
     "Budget": {
       "properties": {
         "budgetBreakdown": {
-          "budgetClassifications": {
+          "budgetClassifications": [{
             "type": "array",
             "origin": "Open codelist that allows you to choose an origin of the monetary funding.",
             "classifications": "Open codelist that allows you to choose a budget clasification.",
@@ -11,14 +11,14 @@
             "levelLabel": "Name of the concept.",
             "id": "ID to identify a specific value of the concept.",
             "description": "Descripction of the specific value of the concept.",
-            "measures": {
+            "measures": [{
               "type": "array",
               "id": "ID to identify the specific accruing moment in which the budget's value will be expressed.",
               "value": {
                 "$ref": "#/definitions/value"
               }
-            }
-          }
+            }]
+          }]
         }
       }
     }
