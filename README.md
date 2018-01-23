@@ -27,7 +27,7 @@ Also this array has an array named measures consisting of an id and an object bu
 ## Example
 
 ```json
-"budgetclassifications": [{
+"budgetClassifications": [{
   "origin": "federal",
   "classifications": "financialSource",
   "level": 1,
