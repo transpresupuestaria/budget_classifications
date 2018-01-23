@@ -1,1 +1,12 @@
-{"name":"budget_classifications","description":"Block for classyfing budget according to the Open Fiscal Data Standard"}
+{"name":"","description":""}
+{
+  "name": {
+    "en": "Budget Classifications"
+  },
+  "description": {
+    "en": "Block for classyfing budget according to the Open Fiscal Data Standard."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/transpresupuestaria/ocds_budget_classifications_extension"
+  }
+}
