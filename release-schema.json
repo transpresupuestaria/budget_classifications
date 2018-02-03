@@ -5,11 +5,31 @@
         "budgetBreakdown": {
           "budgetClassifications": {
             "type": "array",
-            "origin": "Open codelist that allows you to choose an origin of the monetary funding.",
+            "origin": {
+              "title": "origin of funding source",
+              "description": "Codelist that allows you to choose an origin of the monetary funding.",
+              "type": [
+                "string",
+                "null"
+              ],
+              "codelist": "originFoundingSource.csv",
+              "openCodelist": false,
+              "enum": [
+                "Recursos fiscales",
+                "Gasto financiado con recursos del BID-BIRF, así como otros financiamientos externos",
+                "Contraparte nacional",
+                "Ingresos Propios",
+                "Financiamientos Internos",
+                "Financiamientos externos",
+                "Recursos federales",
+                "Recursos estatales",
+                "Otros recursos"
+              ]
+            },
             "classifications": "Open codelist that allows you to choose a budget clasification.",
             "level": "ID to identify the hierarchy level for the concept inside a classification.",
             "levelLabel": "Name of the concept.",
-            "id": "ID to identify a specific value of the concept.",
+            "id": "ID to identify a specific value of the origin concept.",
             "description": "Descripction of the specific value of the concept.",
             "measures": {
               "type": "array",
