@@ -1,0 +1,10 @@
+id,code,source
+1,Recursos fiscales,SHCP
+2,"Gasto financiado con recursos del BID-BIRF, así como otros financiamientos externos",SHCP
+3,Contraparte nacional,SHCP
+4,Ingresos Propios,SHCP
+11,Financiamientos Internos,CONAC-INAI
+12,Financiamientos externos,CONAC-INAI
+13,Recursos federales,CONAC-INAI
+14,Recursos estatales,CONAC-INAI
+15,Otros recursos,CONAC-INAI
