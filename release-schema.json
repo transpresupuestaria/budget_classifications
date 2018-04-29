@@ -35,7 +35,7 @@
               "type": "array",
               "id": "ID to identify the specific accruing moment in which the budget's value will be expressed.",
               "value": {
-                "$ref": "#/definitions/value"
+                "$ref": "#/definitions/Value"
               }
             }
           }
